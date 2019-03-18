@@ -1,9 +1,9 @@
 lazy val root = (project in file(".")).
   settings(
-    name := "firststeps",
-    version := "1.0",
-    scalaVersion := "2.12.1"
+    name := "Sudoku Sensei",
+    version := "2019.0",
+    scalaVersion := "2.12.8"
   )
 
-libraryDependencies += "org.scalactic" %% "scalactic" % "3.0.1"
-libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.1" % "test"
+libraryDependencies += "org.scalactic" %% "scalactic" % "3.0.5"
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.5" % "test"
